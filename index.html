@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday ammu baby ❤️</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      background:black;
+      color:#00ff88;
+      font-family:monospace;
+      overflow-x:hidden;
+    }
+
+    canvas{
+      position:fixed;
+      top:0;
+      left:0;
+      z-index:-1;
+    }
+
+    .container{
+      width:90%;
+      max-width:900px;
+      margin:auto;
+      padding:40px 20px;
+    }
+
+    .terminal{
+      border:2px solid #00ff88;
+      padding:20px;
+      border-radius:10px;
+      box-shadow:0 0 20px #00ff88;
+      background:rgba(0,0,0,0.7);
+    }
+
+    .line{
+      margin:12px 0;
+      font-size:18px;
+      opacity:0;
+      animation:fadeIn 1s forwards;
+    }
+
+    @keyframes fadeIn{
+      to{
+        opacity:1;
+      }
+    }
+
+    .hidden{
+      display:none;
+    }
+
+    .photo-section{
+      margin-top:50px;
+      text-align:center;
+      animation:fade 2s ease-in-out;
+    }
+
+    .photo-section img{
+      width:280px;
+      border-radius:20px;
+      margin:15px;
+      box-shadow:0 0 25px #ff0080;
+    }
+
+    @keyframes fade{
+      from{
+        opacity:0;
+        transform:translateY(50px);
+      }
+
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+
+    .final{
+      margin-top:70px;
+      text-align:center;
+      padding:30px;
+      border:2px solid #ff0080;
+      border-radius:20px;
+      box-shadow:0 0 30px #ff0080;
+      animation:pulse 2s infinite;
+    }
+
+    @keyframes pulse{
+      0%{
+        transform:scale(1);
+      }
+
+      50%{
+        transform:scale(1.02);
+      }
+
+      100%{
+        transform:scale(1);
+      }
+    }
+
+    h1{
+      color:#ff4da6;
+      margin-bottom:20px;
+      font-size:45px;
+    }
+
+    h2{
+      color:white;
+      margin-top:20px;
+    }
+
+    .heart{
+      font-size:60px;
+      animation:heartbeat 1s infinite;
+    }
+
+    @keyframes heartbeat{
+      0%{
+        transform:scale(1);
+      }
+
+      25%{
+        transform:scale(1.2);
+      }
+
+      50%{
+        transform:scale(1);
+      }
+
+      75%{
+        transform:scale(1.2);
+      }
+
+      100%{
+        transform:scale(1);
+      }
+    }
+
+    .typing{
+      border-right:3px solid #00ff88;
+      white-space:nowrap;
+      overflow:hidden;
+      width:0;
+      animation:typing 6s steps(40,end) forwards;
+    }
+
+    @keyframes typing{
+      from{
+        width:0;
+      }
+
+      to{
+        width:100%;
+      }
+    }
+
+    .button{
+      margin-top:40px;
+      text-align:center;
+    }
+
+    button{
+      padding:15px 40px;
+      font-size:20px;
+      background:#ff0080;
+      border:none;
+      border-radius:10px;
+      color:white;
+      cursor:pointer;
+      box-shadow:0 0 20px #ff0080;
+    }
+
+    button:hover{
+      transform:scale(1.05);
+    }
+
+  </style>
+</head>
+<body>
+
+<canvas id="matrix"></canvas>
+
+<div class="container">
+
+  <div class="terminal">
+
+    <div class="line" style="animation-delay:1s">
+      > Booting RelationshipOS v forever...
+    </div>
+
+    <div class="line" style="animation-delay:3s">
+      > Loading memories...
+    </div>
+
+    <div class="line" style="animation-delay:5s">
+      > Checking loyalty...
+    </div>
+
+    <div class="line" style="animation-delay:7s">
+      > Result: TRUE ❤️
+    </div>
+
+    <div class="line" style="animation-delay:9s">
+      > June 16 detected...
+    </div>
+
+    <div class="line" style="animation-delay:11s">
+      > Pain found...
+    </div>
+
+    <div class="line" style="animation-delay:13s">
+      > Love survived everything...
+    </div>
+
+    <div class="line" style="animation-delay:15s">
+      > Hyderabad chapter loaded...
+    </div>
+
+    <div class="line" style="animation-delay:17s">
+      > Distance... fights... struggles...
+    </div>
+
+    <div class="line" style="animation-delay:19s">
+      > Status: Still Together ❤️
+    </div>
+
+    <div class="line" style="animation-delay:21s">
+      > Final dream detected...
+    </div>
+
+    <div class="line" style="animation-delay:23s">
+      > MARRIAGE 💍
+    </div>
+
+  </div>
+
+  <div class="photo-section">
+
+    <h1 class="typing">
+      Happy Birthday My Love ❤️
+    </h1>
+
+    <img src="images/photo1.jpg">
+    <img src="images/photo2.jpg">
+    <img src="images/photo3.jpg">
+
+  </div>
+
+  <div class="final">
+
+    <div class="heart">❤️</div>
+
+    <h1>
+      We Never Gave Up
+    </h1>
+
+    <h2>
+      No matter how many problems came...
+    </h2>
+
+    <h2>
+      We still chose each other.
+    </h2>
+
+    <h2>
+      Again. Again. And Again.
+    </h2>
+
+    <br>
+
+    <h1>
+      Our Final Goal 💍
+    </h1>
+
+    <h1>
+      Marriage
+    </h1>
+
+    <br>
+
+    <h2>
+      Life gave us many bugs...
+    </h2>
+
+    <h2>
+      But together,
+      we debugged everything ❤️
+    </h2>
+
+  </div>
+
+  <div class="button">
+    <button onclick="showMessage()">
+      Run Final Program
+    </button>
+  </div>
+
+</div>
+
+<script>
+
+function showMessage(){
+
+  alert("You are the best thing that ever happened to me ❤️");
+}
+
+const canvas = document.getElementById("matrix");
+const ctx = canvas.getContext("2d");
+
+canvas.height = window.innerHeight;
+canvas.width = window.innerWidth;
+
+const letters = "01LOVEFOREVER";
+const fontSize = 14;
+const columns = canvas.width/fontSize;
+
+const drops = [];
+
+for(let x = 0; x < columns; x++)
+drops[x]=1;
+
+function draw(){
+
+ctx.fillStyle="rgba(0,0,0,0.05)";
+ctx.fillRect(0,0,canvas.width,canvas.height);
+
+ctx.fillStyle="#00ff88";
+ctx.font=fontSize+"px monospace";
+
+for(let i=0;i<drops.length;i++){
+
+const text=letters[Math.floor(Math.random()*letters.length)];
+
+ctx.fillText(text,i*fontSize,drops[i]*fontSize);
+
+if(drops[i]*fontSize>canvas.height && Math.random()>0.975)
+drops[i]=0;
+
+drops[i]++;
+}
+}
+
+setInterval(draw,35);
+
+</script>
+
+</body>
+</html>
